@@ -1,23 +1,16 @@
 //  icons
 import {
-  FiYoutube,
+
   FiInstagram,
-  FiGithub,
-  FiDribbble,
   FiLayout,
-  FiSettings,
   FiPenTool,
-  FiTag,
+  FiMic,
   FiMail,
   FiMapPin,
 } from 'react-icons/fi';
 
 // companies icons
-import FreelancerBrandIcon from './assets/img/brands/freelancer.png';
-import UpworkBrandIcon from './assets/img/brands/upwork.png';
-import FiverBrandIcon from './assets/img/brands/fiverr.png';
-import BehanceBrandIcon from './assets/img/brands/behance.png';
-import DribbbleBrandIcon from './assets/img/brands/dribbble.png';
+import SaraBrandIcon from './assets/img/brands/cartao-de-visita1.jpg';
 
 // projects images
 import Project1 from './assets/img/projects/p1.webp';
@@ -42,30 +35,30 @@ import TestiImage1 from './assets/img/testimonials/testimonial-1.webp';
 import TestiImage2 from './assets/img/testimonials/testimonial-2.webp';
 import TestiImage3 from './assets/img/testimonials/testimonial-3.webp';
 
+import ServiceImg1 from './assets/img/services/services1.jpg';
+import ServiceImg2 from './assets/img/services/services2.jpg';
+import ServiceImg3 from './assets/img/services/services3.jpg';
+
 // navigation
 export const navigation = [
   {
-    name: 'home',
+    name: 'Início',
     href: 'home',
   },
   {
-    name: 'about',
+    name: 'Sobre',
     href: 'about',
   },
   {
-    name: 'portfolio',
-    href: 'portfolio',
-  },
-  {
-    name: 'services',
+    name: 'Psicoterapia',
     href: 'services',
   },
   {
-    name: 'testimonials',
-    href: 'testimonials',
+    name: 'Perguntas',	
+    href: 'faq',
   },
   {
-    name: 'contact',
+    name: 'Contato',
     href: 'contact',
   },
 ];
@@ -73,19 +66,7 @@ export const navigation = [
 // social
 export const social = [
   {
-    icon: <FiYoutube />,
-    href: '',
-  },
-  {
     icon: <FiInstagram />,
-    href: '',
-  },
-  {
-    icon: <FiGithub />,
-    href: '',
-  },
-  {
-    icon: <FiDribbble />,
     href: '',
   },
 ];
@@ -93,25 +74,9 @@ export const social = [
 // companies
 export const brands = [
   {
-    img: FreelancerBrandIcon,
+    img: SaraBrandIcon,
     href: '',
-  },
-  {
-    img: UpworkBrandIcon,
-    href: '',
-  },
-  {
-    img: FiverBrandIcon,
-    href: '',
-  },
-  {
-    img: BehanceBrandIcon,
-    href: '',
-  },
-  {
-    img: DribbbleBrandIcon,
-    href: '',
-  },
+  }
 ];
 
 // projects
@@ -202,27 +167,24 @@ export const skills = [
 export const services = [
   {
     icon: <FiLayout />,
-    name: 'Web Design',
+    name: 'Psicoterapia Individual',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
-  },
-  {
-    icon: <FiSettings />,
-    name: 'Web Development',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'A psicoterapia individual é um processo com um terapeuta para explorar emoções e pensamentos, visando autoconhecimento e melhoria da saúde mental, ajudando a lidar com desafios emocionais.',
+    image: ServiceImg1,
   },
   {
     icon: <FiPenTool />,
-    name: 'Branding',
+    name: 'Psicoterapia Online',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'A psicoterapia online oferece atendimento psicológico por meio de plataformas digitais, como videoconferências, proporcionando comodidade e acessibilidade. Ideal para quem busca flexibilidade ou enfrenta dificuldades para atendimento presencial, é eficaz no tratamento de ansiedade, depressão e outros transtornos.',
+    image: ServiceImg2,
   },
   {
-    icon: <FiTag />,
-    name: 'SEO',
+    icon: <FiMic />,
+    name: 'Palestas',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio perferendis volm quibusdam ullam qui dolore.',
+      'Uma palestra sobre psicologia oferece insights valiosos sobre como a mente funciona e como podemos aplicar esse conhecimento para viver de forma mais saudável e equilibrada. Descubra o poder da psicologia na transformação de vidas!',
+    image: ServiceImg3,
   },
 ];
 
@@ -231,7 +193,7 @@ export const testimonials = [
   {
     authorImg: TestiImage1,
     authorText:
-      'Love the simplicity of the service and the prompt customer support. We can’t imagine working without it.',
+      'Dra. Sara é uma psicóloga excepcional, com empatia e profissionalismo que fazem a diferença na vida de seus pacientes.',
     authorName: 'Olivia Doe',
     authorPosition: 'Head of Design, Google',
   },
@@ -255,14 +217,14 @@ export const testimonials = [
 export const contact = [
   {
     icon: <FiMail />,
-    title: 'Have a question?',
-    subtitle: 'I am here to help you.',
-    description: 'Email me at hello@youremail.com',
+    title: 'Tem alguma pergunta?',
+    subtitle: 'Eu estou aqui para te ajudar.',
+    description: 'E-mail: sara@email.com',
   },
   {
     icon: <FiMapPin />,
-    title: 'Current Location',
-    subtitle: 'Bucharest, Romania',
-    description: 'Serving clients worldwide',
+    title: 'Localização atual',
+    subtitle: 'Cidade, Minas Gerais',
+    description: 'Presto serviço online e presencial',
   },
 ];

@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'MADE Soulmaze';
+  src: url('./assets/fonts/MADE\ Soulmaze\ Outline\ PERSONAL\ USE.otf') format('opentype');
+}
+
 @layer base {
   body {
     @apply font-body text-paragraph leading-6 bg-gray-200;
+    overflow-x: hidden;
   }
   h1,
   h2,
@@ -41,4 +47,8 @@
   .active {
     @apply text-accent;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }

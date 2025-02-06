@@ -34,6 +34,8 @@ module.exports = {
           hover: '#925a2b',
         },
         paragraph: '#878e99',
+        // Add your new custom color here
+        verdao: '#4d7a53',
       },
     },
   },
