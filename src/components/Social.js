@@ -9,12 +9,12 @@ const Social = () => {
       {social.map((item, index) => {
         return (
           <li
-            className="flex justify-center items-center text-accent"
+            className="text-accent cursor-pointer"
             key={index}
           >
-            <a className="text-base" href={item.href}>
+            <a className="flex items-center gap-2 text-base transition-all duration-300 hover:text-gray-500" href={item.href}>
               {item.icon}
-              <p className='text-accent text-sm'>Instagram</p>
+              <p className='text-accent text-sm transition-all duration-300 hover:text-gray-500'>Instagram</p>
             </a>
           </li>
         );

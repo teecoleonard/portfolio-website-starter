@@ -3,8 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'MADE Soulmaze';
-  src: url('./assets/fonts/MADE\ Soulmaze\ Outline\ PERSONAL\ USE.otf') format('opentype');
+  font-family: 'MADE_Soulmaze';
+  src: url('../fonts/MADE\ Soulmaze\ PERSONAL\ USE.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Legquinne';
+  src: url('../fonts/Legquinne-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @layer base {

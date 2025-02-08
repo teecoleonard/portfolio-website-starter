@@ -50,7 +50,7 @@ export const navigation = [
     href: 'about',
   },
   {
-    name: 'Psicoterapia',
+    name: 'Serviços',
     href: 'services',
   },
   {
@@ -67,7 +67,7 @@ export const navigation = [
 export const social = [
   {
     icon: <FiInstagram />,
-    href: '',
+    href: 'http://instagram.com/saramartins16/',
   },
 ];
 
@@ -224,7 +224,7 @@ export const contact = [
   {
     icon: <FiMapPin />,
     title: 'Localização atual',
-    subtitle: 'Cidade, Minas Gerais',
+    subtitle: 'Campo Belo, Minas Gerais',
     description: 'Presto serviço online e presencial',
   },
 ];

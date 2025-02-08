@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce03aa8c.css",
+    "main.js": "/static/js/main.db322d18.js",
+    "static/media/banner-sara-semfundo2.png": "/static/media/banner-sara-semfundo2.e54135276277ed83238f.png",
+    "static/media/MADE Soulmaze Outline PERSONAL USE.otf": "/static/media/MADE Soulmaze Outline PERSONAL USE.9540df7481ae3f22d160.otf",
+    "static/media/testimonial-2.webp": "/static/media/testimonial-2.4c1e7c2fe42e548d2e0f.webp",
+    "static/media/services1.jpg": "/static/media/services1.cdae0cf1243459197893.jpg",
+    "static/media/logo.png": "/static/media/logo.773f5d8913bb7f4f170c.png",
+    "static/media/services3.jpg": "/static/media/services3.473cb62d200f7e595d6d.jpg",
+    "static/media/marca-dagua-esquerda.png": "/static/media/marca-dagua-esquerda.b5e20cd7e6f763f13921.png",
+    "static/media/background-mobile.jpg": "/static/media/background-mobile.0f4d1bcf31029028b3c9.jpg",
+    "static/media/cartao-de-visita1.jpg": "/static/media/cartao-de-visita1.7809dc163d7610650474.jpg",
+    "static/media/services2.jpg": "/static/media/services2.e0508898c7a0dbedf087.jpg",
+    "static/media/about-sara.jpg": "/static/media/about-sara.b212fc41713bb981f1b7.jpg",
+    "static/media/marca-dagua-direita.png": "/static/media/marca-dagua-direita.ad41355a26ef9bbb3bb7.png",
+    "static/media/p1.webp": "/static/media/p1.52f0f3a89c11044c2037.webp",
+    "static/media/p5.webp": "/static/media/p5.40f22911cc8104bfdf42.webp",
+    "static/media/testimonial-3.webp": "/static/media/testimonial-3.677360499dd5a97f022a.webp",
+    "static/media/testimonials.svg": "/static/media/testimonials.07294ae9606e6d7ea071.svg",
+    "static/media/p3.webp": "/static/media/p3.05179f007af7cd2ad2a6.webp",
+    "static/media/contact.svg": "/static/media/contact.ec60abf53c38c2593f7e.svg",
+    "static/media/p4.webp": "/static/media/p4.373ffd063f14c91c84c5.webp",
+    "static/media/p6.webp": "/static/media/p6.26fcf4320bfa0eacc03a.webp",
+    "static/media/testimonial-1.webp": "/static/media/testimonial-1.8e05fd5dbc71387931b5.webp",
+    "static/media/p2.webp": "/static/media/p2.987c883e6e66df8a1228.webp",
+    "index.html": "/index.html",
+    "main.ce03aa8c.css.map": "/static/css/main.ce03aa8c.css.map",
+    "main.db322d18.js.map": "/static/js/main.db322d18.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce03aa8c.css",
+    "static/js/main.db322d18.js"
+  ]
+}

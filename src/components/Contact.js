@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { contact } from "../data";
+import FlowerBackground from "./FlowerBackground";
 
 import bgRight from '../assets/img/background/marca-dagua-esquerda.png';
 import bgLeft from '../assets/img/background/marca-dagua-direita.png';
@@ -52,16 +53,8 @@ const Contact = () => {
   };
 
   return (
-    <section 
-      className="section relative min-h-screen z-0" 
-      style={{
-        backgroundColor: '#F5F2E9',
-        position: 'relative',
-        overflow: 'hidden'
-      }}
-      id="contact"
-    >
-      {/* Background elements */}
+    <section className="section relative min-h-screen" id='contact'>
+      {/* Background layers from bottom to top */}
       <div 
         className="absolute inset-0"
         style={{
@@ -70,18 +63,19 @@ const Contact = () => {
         }}
       />
       
-      {/* Title Watermark */}
-      <span className="absolute top-[30px] lg:top-[80px] left-1/2 transform -translate-x-1/2 text-black font-bold text-5xl lg:text-8xl font-['MADE_Soulmaze'] z-0 [-webkit-text-stroke:_0.5px_rgba(0,0,0,0.3)] opacity-10">
-        CONTATO
-      </span>
-
+      {/* Flowers background */}
+      <div className="absolute inset-0" style={{ zIndex: 1 }}>
+        <FlowerBackground />
+      </div>
+      
+      {/* Watermark images */}
       <div 
         className="absolute left-0 top-0 h-full w-1/2 hidden lg:block"
         style={{
           backgroundImage: `url(${bgLeft})`,
           backgroundPosition: 'left center',
           backgroundRepeat: 'no-repeat',
-          zIndex: 1
+          zIndex: 2
         }}
       />
       <div 
@@ -90,23 +84,26 @@ const Contact = () => {
           backgroundImage: `url(${bgRight})`,
           backgroundPosition: 'right center',
           backgroundRepeat: 'no-repeat',
-          zIndex: 1
+          zIndex: 2
         }}
       />
       
-      {/* Content */}
-      <div className="container mx-auto relative z-10">
+      {/* Content container with higher z-index */}
+      <div className="container mx-auto relative z-30">
         <div className="flex flex-col items-center">
-          {/* section title */}
-          <div class="flex flex-col items-center text-center">
-            <h2 className="section-title text-primary before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
-              Entre em contato
+          {/* section title - updated to match Services styling */}
+          <div className="flex flex-col items-center text-center relative mb-12 lg:mb-16">
+            <span className="absolute top-[-30px] lg:top-[-100px] left-1/2 transform -translate-x-1/2 text-black font-bold text-5xl lg:text-8xl font-['MADE_Soulmaze'] z-0 [-webkit-text-stroke:_0.5px_rgba(0,0,0,0.3)] opacity-60">
+              CONTATO
+            </span>
+            {/* Updated horizontal rule */}
+            <hr className="w-80 h-[2px] mb-4 bg-[#9B8A65] opacity-100 rounded-full mt-8" />
+            <h2 className="text-3xl lg:text-4xl font-medium lg:font-extrabold mb-6 lg:mb-9 relative mt-8 lg:mt-1- font-['Legquinne'] text-[#7D7255]">
+              Vamos agendar uma consulta
             </h2>
-            <p className="subtitle text-accent font-bold">
-              Vamos agendar um consulta.
-            </p>
           </div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12 w-full max-w-[1000px] mx-auto">
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-12 w-full max-w-[1000px] mx-auto relative">
             {/* Contact Info */}
             {contact.map((item, index) => {
               const { icon, title, subtitle, description } = item;
@@ -117,7 +114,8 @@ const Contact = () => {
                   p-6 lg:p-4 rounded-2xl backdrop-blur-sm
                   bg-gradient-to-b from-[#d6cb7abe] to-[#b3a06220] 
                   shadow-lg hover:shadow-xl transition-all duration-300
-                  lg:backdrop-blur-none lg:bg-transparent lg:shadow-none"
+                  lg:backdrop-blur-none lg:bg-transparent lg:shadow-none
+                  relative z-10"
                 >
                   <div className="text-accent text-[40px] mb-4">{icon}</div>
                   <h4 className="text-xl font-medium mb-2 text-[#1a1918]">{title}</h4>
@@ -128,9 +126,9 @@ const Contact = () => {
             })}
           </div>
 
-          {/* Form */}
+          {/* Form with background */}
           <form 
-            className="space-y-8 w-full max-w-[780px]" 
+            className="space-y-8 w-full max-w-[780px] relative z-30 p-8 rounded-2xl" 
             onSubmit={handleSubmit}
           >
             <input className="input" type="text" name="user_name" placeholder="Nome" required />

@@ -3,22 +3,30 @@ import { motion, AnimatePresence } from 'framer-motion';
 import MobileBg from '../assets/img/background/background-mobile.jpg';
 
 const Intro = () => {
-  const [isVisible, setIsVisible] = useState(() => {
-    return !sessionStorage.getItem('introShown');
-  });
+  const [isVisible, setIsVisible] = useState(true);
   const hasScrolled = useRef(false);
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 50 && !hasScrolled.current) {
         setIsVisible(false);
-        sessionStorage.setItem('introShown', 'true');
         hasScrolled.current = true;
       }
     };
 
     window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+    
+    // Reset hasScrolled when component unmounts or page is refreshed
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+      hasScrolled.current = false;
+    };
+  }, []);
+
+  // Reset state when page is refreshed
+  useEffect(() => {
+    setIsVisible(true);
+    hasScrolled.current = false;
   }, []);
 
   return (
@@ -52,9 +60,9 @@ const Intro = () => {
                 initial={{ y: 20, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.3 }}
-                className="text-4xl font-bold mb-8"
+                className="text-4xl font-bold mb-8 font-[Legquinne] text-orange-300"
               >
-                Olá, Eu sou Sara
+                Olá, Bem-vindo(a)
               </motion.h1>
               <motion.div
                 animate={{ 

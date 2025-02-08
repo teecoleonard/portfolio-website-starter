@@ -19,7 +19,7 @@ const Header = () => {
     <header
       className={`${
         bg ? "bg-tertiary h-20" : "h-20"
-      } flex items-center fixed top-0 w-full text-white z-10 transition-all duration-300 bg-tertiary`}
+      } flex items-center fixed top-0 w-full text-white z-40 transition-all duration-300 bg-tertiary`}
     >
       <div className="container mx-auto h-full flex items-center justify-between">
         {/* logo */}

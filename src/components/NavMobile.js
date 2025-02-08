@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaSpa } from 'react-icons/fa';
+import { FaSpa, FaInstagram } from 'react-icons/fa';  // Add FaInstagram import
 import { GiFlowerPot, GiFlowerStar, GiFlowerTwirl } from 'react-icons/gi';
 
 // import navigation data
@@ -8,9 +8,6 @@ import { navigation } from "../data";
 // import icons
 import { XIcon } from "@heroicons/react/outline";
 import { MenuAlt3Icon } from "@heroicons/react/outline";
-
-// import social
-import Social from "./Social";
 
 // import motion
 import { motion } from "framer-motion";
@@ -82,7 +79,6 @@ const NavMobile = () => {
         className="w-4 h-4 rounded-full bg-[#9B8A65] fixed top-0 right-0"
       ></motion.div>
 
-      {/* menu */}
       <motion.ul
         variants={ulVariants}
         initial="hidden"
@@ -94,6 +90,16 @@ const NavMobile = () => {
         bg-gradient-to-b from-[#F5F2E9] to-[#EAE1D2]
         backdrop-blur-lg`}
       >
+        {/* Instagram Icon */}
+        <a 
+          href="https://www.instagram.com/saramartins16/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="absolute top-10 left-1/2 transform -translate-x-1/2 text-[#9B8A65] hover:text-[#7D7255] transition-all duration-300"
+        >
+          <FaInstagram className="w-8 h-8" />
+        </a>
+
         {/* Decorative Elements */}
         <motion.div
           variants={decorationVariants}
