@@ -21,7 +21,7 @@ Um pouco de como é a versão Mobile do Projeto com fotos tiradas diretamente um
 ### Versão PC
 Um pouco da visão do Projeto pelo computador.
 
-<img src="https://github.com/user-attachments/assets/01844e0f-1aa5-491e-bc93-a25e14df2fb6" width="250" /> _
+<img src="https://github.com/user-attachments/assets/01844e0f-1aa5-491e-bc93-a25e14df2fb6" width="700" /> _
 <img src="https://drive.google.com/uc?export=view&id=11zxnSRIdU6Jg_ZttjHrFOITxkK7mDjyG" width="250" /> _
 <img src="https://drive.google.com/uc?export=view&id=1jqzoA2J_1UM12OkWslLpH9FvyHURzdsg" width="250" /> _
 <img src="https://drive.google.com/uc?export=view&id=1nsYwkCYV-fwmeWZKCKsI3WKZ-H_6nSVs" width="250" /> _
