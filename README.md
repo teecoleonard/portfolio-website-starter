@@ -13,7 +13,7 @@ Um pouco de como é a versão Mobile do Projeto com fotos tiradas diretamente um
 
 <img src="https://drive.google.com/uc?export=view&id=1vuPFXe-gfQWBnJCAG6R5BbXn6oe7U-4C" width="250" /> _
 <img src="https://drive.google.com/uc?export=view&id=156wj9YmozWx4ejVncXXcK215aGApqcgb" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=1h4iJ27NUFLp45_IqZvjSQLjZJn3Ardli" width="250" /> _
+<img src="https://drive.google.com/uc?export=view&id=1eExCyIalTN5ql41taAao71dB9lQbEYmE" width="250" /> _
 <img src="https://drive.usercontent.google.com/download?id=1eExCyIalTN5ql41taAao71dB9lQbEYmE&export=view&authuser=0" width="250" /> _
 
 ### Versão PC
