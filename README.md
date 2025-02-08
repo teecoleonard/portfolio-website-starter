@@ -11,7 +11,7 @@ Esse projeto foi um pedido de uma amiga Psicologa que estava precisando de um si
 ### Versão Mobile
 Um pouco de como é a versão Mobile do Projeto com fotos tiradas diretamente um dispositivel móvel.
 
-![versao-mobile (3)](https://github.com/user-attachments/assets/d7b55174-5f24-47df-beb5-e52b686f1252) _
+<img src="https://github.com/user-attachments/assets/d7b55174-5f24-47df-beb5-e52b686f1252" width="250" />  _
 <img src="https://drive.google.com/uc?export=view&id=156wj9YmozWx4ejVncXXcK215aGApqcgb" width="250" /> _
 <img src="https://drive.google.com/uc?export=view&id=1eExCyIalTN5ql41taAao71dB9lQbEYmE" width="250" /> _
 <img src="https://drive.usercontent.google.com/download?id=1eExCyIalTN5ql41taAao71dB9lQbEYmE&export=view&authuser=0" width="250" /> _
