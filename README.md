@@ -15,19 +15,16 @@ Um pouco de como é a versão Mobile do Projeto com fotos tiradas diretamente um
 <img src="https://github.com/user-attachments/assets/41ee505d-0105-4128-978b-3e34a7b3bc3a" width="250" />  _
 <img src="https://github.com/user-attachments/assets/23518859-c6ee-4176-8809-03b3bf3a9e30" width="250" />  _
 <img src="https://github.com/user-attachments/assets/0defa03c-1ea1-4f49-8618-5da0983a24f0" width="250" />  _
-<img src="https://github.com/user-attachments/assets/29d0af5b-d30b-4d8a-a7d3-719b4ebcc6aa" width="250" />
 
 
 ### Versão PC
 Um pouco da visão do Projeto pelo computador.
 
 <img src="https://github.com/user-attachments/assets/01844e0f-1aa5-491e-bc93-a25e14df2fb6" width="700" /> _
-<img src="https://drive.google.com/uc?export=view&id=11zxnSRIdU6Jg_ZttjHrFOITxkK7mDjyG" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=1jqzoA2J_1UM12OkWslLpH9FvyHURzdsg" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=1nsYwkCYV-fwmeWZKCKsI3WKZ-H_6nSVs" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=1u_ykvh1RU6tK2CHmfHH6f1glR_owRsLV" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=1uCQj33kA-zcev4E4PIa21g0eIsHOMQDO" width="250" /> _
-<img src="https://drive.google.com/uc?export=view&id=13nCiiAiGoZ2fL5ITljUETAhUtvV03utc" width="250" /> _
+<img src="https://github.com/user-attachments/assets/4c59dc66-fd0f-4afc-8213-f115b92cf85e" width="700" /> _
+<img src="https://github.com/user-attachments/assets/7edfeaca-4890-4ea7-b414-48ec2ce95f1c" width="700" /> _
+
+
 
 ## Porque criar esse Projeto?
 
