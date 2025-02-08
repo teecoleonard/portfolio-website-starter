@@ -1,9 +1,5 @@
 
 # Site Pessoal de Psicóterapia
-
-If you want to take a look on all screens of the App, they are [here](https://drive.google.com/drive/folders/1QBRMz2XTn9lfqmGEoJ1UqVNI8EbLgy4W?usp=sharing).
-
-
 ## About this Project
 
 The idea of the App is:
